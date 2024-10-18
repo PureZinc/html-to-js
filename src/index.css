@@ -1,0 +1,264 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  align-items: center;
+  background-color: tomato;
+}
+
+#character-cards {
+  width: 90%;
+  min-height: 33vh;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.card {
+  min-height: 250px;
+  width: 200px;
+  margin-top: 10px;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.card img {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.card h3 {
+  font-size: 30px;
+  color: white;
+}
+
+.card h4 {
+  font-size: 20px;
+  color: white;
+}
+
+.card-titles {
+  background-color: #00000033;
+  font-size: 30px;
+  position: absolute;
+  z-index: 1;
+  word-wrap: break-word;
+  width: 200px;
+}
+
+#character-ratings {
+  width: 90%;
+  min-height: 33vh;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+#character-ratings h4 {
+  font-size: 20px;
+}
+
+table {
+  border-radius: 5px;
+  margin-top: 10px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbjOHCw2pwjjUvQW4HsEctQyfzWcDmMAjr4ay6xj_zEZVpJQjm_JPdlkb3Lv64vVqRrQ0&usqp=CAU);
+}
+
+td,
+th {
+  border: 1px solid #aaaaaa;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  font-weight: bold;
+}
+
+tr.dark {
+  background-color: #dddddde1;
+}
+tr.light {
+  background-color: #ffffffe1;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: black;
+  color: white;
+}
+
+header > nav {
+  display: flex;
+  list-style: none;
+  width: 33%;
+  justify-content: space-around;
+}
+
+header > nav > li {
+  padding: 10px;
+  background-color: gray;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+header > nav > li:hover {
+  background-color: tomato;
+}
+
+header > h1 {
+  font-size: 30px;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
